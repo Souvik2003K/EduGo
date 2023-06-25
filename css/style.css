@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&family=Poppins:wght@300;400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* ================== head part 1 ===================== */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header.head{
+    background-image: linear-gradient( rgba(0,0,0,0.2) , rgba(0,0,0,0.2) ) , url('..//img/bg-image.jpg');
+    height: 90vh;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-bar .nav-items{
+    margin: 0 20px;
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 500;
+}
+
+.nav-bar .nav-items a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar .dropdown button{
+    background-color: rgb(26, 25, 25);
+    border: none;
+    outline: none;
+}
+
+.nav-bar .dropdown ul li a:hover{
+    background-color: rgb(55, 54, 54);
+    color: white;
+}
+
+.nav-items .btn{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* ================== heading middle part ===================== */
+
+.sale{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.line-1{
+    display: flex;
+    font-weight: 600;
+    font-size: 40px;
+    border: 2px solid black;
+    padding: 10px 20px;
+}
+
+.line-1 .line{
+    margin-bottom: 0;
+}
+
+.l1{
+    color: orange;
+}
+.l2{
+    color: white;
+}
+.l3{
+    color: rgb(24, 179, 24);
+}
+
+.line-2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-top: none;
+}
+
+
+/* ================== main part 1 ===================== */
+
+.sec4{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.sec4 .store{
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 44px;
+    font-weight:900px;
+}
+
+.sec4 .fact{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight:500px;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+}
+
+.sec4 .sec4-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.sec4-2 .cards{
+    background-color: #f5f6fb;
+    border-radius: 45px 0px 45px 45px;
+    margin: auto 20px;
+    height: fit-content;
+    padding: 20px;
+}
+
+.sec4-2 .cards:hover{
+    box-shadow: 1px 1px 1px 1px #ececec;
+}
+
+.cards img{
+    width: 100px;
+    border-radius: 50%;
+    margin: 30px auto;
+}
+
+.card1 img{
+    height: 100px;
+}
+
+.card3 img{
+    height: 100px;
+}
+
+.cards .msg{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    color: #8b8b99;
+    margin-bottom: 25px;
+}
+
+.cards .author{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.cards .desig{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #8b8b99;
+    font-style: italic;
+}
+
+/* =================== main part 2 ================ */
+
+.why{
+    background-color: #edffb5;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.why .head{
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    margin: 30px auto;
+}
+
+.box-wrapper{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.box{
+    margin: 0 40px;
+}
+
+.box img{
+    height: 250px;
+    margin: 20px auto;
+}
+
+.box p{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+
+/* ----------------- testimonials ---------------*/
+
+
+.testimonials h2{
+    font-family: 'Lexend Deca', sans-serif;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.testimonials .line{
+    border: 1px solid brown;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.tests{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.test{
+    background: rgb(237,255,181);
+    background: linear-gradient(299deg, rgba(237,255,181,1) 15%, rgba(125,125,125,0.6671043417366946) 79%);
+    border-radius: 40px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+}
+
+.test2{
+    margin: 0 auto;
+}
+
+.test img{
+    width: 150px;
+    margin: 40px;
+    border-radius: 50%;
+}
+
+.para{
+    padding: 40px;
+}
+
+.para .name{
+    text-align: end;
+}
+
+/* ----------------- account creation ---------------*/
+
+.acc{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 150px;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.text h1{
+    text-align: center;
+    font-weight: 600;
+}
+
+.text p{
+    text-align: center;
+}
+
+.text p a{
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.text .inp input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    outline:none;
+    border: 1px solid grey;
+    margin: 20px auto;
+}
+
+.acc .image{
+    padding: auto 40px;
+}
+
+.text .btn{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* ------------------ footer ---------------- */
+
+footer{
+    background-color: #a1dec8;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+footer .about-app{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.part1 h1 a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.part1 .contact{
+    display: flex;
+}
+
+.contact p i{
+    margin: 5px;
+}
+
+.contact .em{
+    margin: 0 20px;
+}
+
+.about-app .part2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.part2 p{
+    font-size: 12px;
+    margin: 5px auto;
+}
+
+
+
+footer .foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons a i{
+    margin: 10px;
+    color: black;
+}
+
+.icons a i:hover{
+    transform: scale(1.5);
+}
+
+.foot-sec p a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width:1260px){
+    .acc{
+        grid-template-columns: 1fr;
+    }
+    .acc .image img{
+        display: none;
+    }
+    .acc .text{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .sec4 .sec4-2{
+        grid-template-columns: 1fr;
+        width: 70%;
+    }
+
+    .sec4 .sec4-2 .cards{
+        margin: 20px auto;
+    }
+
+    .box-wrapper{
+        display: block;
+        max-width: 70%;
+        text-align: center;
+        /* margin: 0 auto; */
+    }
+    .box-wrapper .box{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .box-wrapper .box img{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .tests{
+        grid-template-columns: 1fr;
+        gap: 0;
+        width: 70%;
+    }
+    .tests .test{
+        margin: 20px auto;
+    }
+
+    footer .about-app{
+        grid-template-columns: 1fr;
+    }
+
+    .about-app .foot-parts{
+        width: 70%;
+        margin: 0 auto;
+    }
+}

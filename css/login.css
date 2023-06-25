@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&family=Poppins:wght@300;400;500;700&display=swap');
+
+body{
+	font-family: 'Poppins', sans-serif;
+	background-image: linear-gradient( rgba(0,0,0,0.2) , rgba(0,0,0,0.2) ) , url('..//img/bg-image.jpg');
+	height: 90vh;
+	width: 99%;
+	background-position: top;
+	background-size: cover;
+}
+
+.logo h1 a{
+	color: white;
+	text-decoration: none;
+	margin: auto 40px;
+}
+
+.login{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: #B4CDE6;
+	width: 450px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.login .head{
+	background-color: #001C30;
+	padding: 20px;
+	width: 90%;
+	margin: 20px auto;
+	text-align: center;
+	font-size: 33px;
+	color: white;
+	border-radius: 10px;
+}
+
+.inp input{
+	display: block;
+}
+
+input{
+	outline: none;
+	border: none;
+	border-bottom: 3px solid black;
+	background: none;
+	width: 100%;
+	font-size: 23px;
+	margin: 20px auto;
+}
+
+.inp button{
+	background-color: #001C30;
+	font-size: 23px;
+	padding: 10px;
+	width: 100%;
+	margin: 10px auto;
+	padding: 20px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.inp button a{
+	color: white;
+	text-decoration: none;
+}
+
+.inp a{
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.inp a:hover{
+	text-decoration: underline;
+}
